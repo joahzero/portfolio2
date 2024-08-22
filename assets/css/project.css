@@ -165,6 +165,7 @@ body {
   margin-top: -10px;
 }
 .project-content .group-project .project-item .project-info .description {
+  display: none;
   font-family: "neuemachina", "Pretendard Variable", Pretendard, sans-serif;  
   font-size: 1.15rem;
   line-height: 1.5;
