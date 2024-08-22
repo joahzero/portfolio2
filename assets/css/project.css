@@ -1,0 +1,365 @@
+body {
+  /* background-color: #F9F7F4; */
+}
+
+.page {
+  position: relative;
+  width: 100%;  
+}
+
+.content {}
+.content .inner {}
+
+.project-content {}
+.project-content .inner {}
+
+.project-content .group-title {
+  display: flex;
+  min-height: 66vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 1;
+}
+.project-content .group-title .title-inner{
+  display: flex;
+  flex:auto 1 1;
+  flex-wrap:wrap;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-end;
+  width: 100%;
+  max-width:1440px;
+  height: 100%;
+  margin:0 auto;
+  font-size: 16px;
+}
+.project-content .group-title .sub-txt{
+  font-family: "twklausanne", "Pretendard Variable", Pretendard, sans-serif;
+  font-size: 1.33em;
+  font-weight: 200;
+  /* line-height: 0.9em; */
+  line-height: 1.1em;
+  letter-spacing: -0.02em;
+  word-spacing: 0.1em;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-left:12px;
+  overflow: hidden;
+  /* text-indent:12px; */
+}
+
+.project-content .group-title .sub-txt .word{
+  overflow: hidden;
+  height: 100%;
+  display: inline-flex;
+}
+.project-content .group-title .page-title{
+  font-family: "twklausanne", Sans-serif;
+  font-size: 10.8em;
+  font-weight: 200;
+  line-height: 0.9em;
+  letter-spacing: -0.035em;
+  max-width:1100px;
+  margin-bottom: 1rem;
+}
+.project-content .group-title .page-title .word {
+  overflow: hidden;
+  line-height: 0.9em;
+  vertical-align: middle;
+  position: relative;
+  padding: 0.1em 1em;
+  margin: -0.1em -1em;
+}
+.project-content .group-title .page-title .word:last-child {
+  padding-right:0;
+}
+.project-content .group-title .page-title .word .char {
+  line-height: 0.9em;
+  padding: 10px 0;
+  margin: -10px 0;
+  overflow: visible;
+}
+
+
+.project-content .group-project {
+}
+
+.project-content .group-project .project-wrap{
+  width: 100%;
+  max-width:1440px;
+  height: 100%;
+  margin:0 auto;
+  position: relative;
+}
+.project-content .group-project .project-wrap .pr-line{
+  position: relative;
+  max-width: 1440px;
+  margin-top:2.7vh;
+  /* margin-bottom:13vh; */
+  margin-left:auto;
+  margin-right:auto;
+  height: 2px;
+  background: transparent;
+  --width:0;
+}
+.project-content .group-project .project-wrap .pr-line:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--width);
+  height: 100%;
+  content: '';
+  background: #fff;
+}
+.project-content .group-project .project-list{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6.875rem;
+}
+.project-content .group-project .project-item{
+  width: 100%;
+  border-bottom:1px solid #fff;
+  display: flex;
+}
+.project-content .group-project .project-item a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:8vh 4vh;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+.project-content .group-project .project-item a.mask {
+  width: 100%;
+  background-color: #d9ff06;
+  display: flex;
+  position: absolute;
+  clip-path: circle(32px at calc(100% - 32px - 4vh) 50%);
+  transition: clip-path 0.7s ease;
+  color:#000;
+}
+
+.project-content .group-project .project-item .project-info{
+  width:calc(100% - 100px);
+}
+.project-content .group-project .project-item .project-info .title{
+  position: relative;
+  font-family: "neuemachina", "Pretendard Variable", Pretendard, sans-serif;
+  /* font-family: "neuemachina", "SUITE Variable", Sans-serif; */
+  font-size: 2.7em;
+  font-weight: 300;
+  line-height: 1em;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  font-weight: 600;
+}
+.project-content .group-project .project-item .project-year{
+  font-style: italic;
+  font-size: 0.5em;
+  line-height: 1;
+  font-weight: 500;
+  margin-top: -10px;
+}
+.project-content .group-project .project-item .project-info .description {
+  font-family: "neuemachina", "Pretendard Variable", Pretendard, sans-serif;  
+  font-size: 1.15rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.project-content .group-project .project-item .project-info .tag{
+  font-family: "neuemachina", "Pretendard Variable", Pretendard, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  line-height: 1em;
+  display: flex;
+  gap: 20px 10px;
+  margin-top: 2em;
+  /* display: none; */
+}
+.project-content .group-project .project-item .project-info .tag span{
+  background: transparent;
+  border-radius: 2em;
+  min-width: 1em;
+  height: 2.5em;
+  border: 1.5px solid #fff;
+  padding: 0 1.75em;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  position: relative;
+  text-decoration: none;
+  will-change: transform;
+  opacity:0.8;
+  line-height: 0.8;
+  font-weight: 200;
+}
+.project-content .group-project .project-item a.mask .tag span {
+  border-color: #000;
+  background-color: #000;
+  color: #d9ff06;
+  opacity: 1;
+}
+.project-content .group-project .project-item .project-info .tag span:before {
+  content: '#';
+  display: block;
+}
+.project-content .group-project .project-item .project-link {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+.project-content .group-project .project-item .project-link:before {
+  width: 100%;
+  height: 100%;
+  border-radius:50%;
+  background-color: #d9ff06;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* mix-blend-mode: screen; */
+}
+.project-content .group-project .project-item .project-link-in {
+  width: 100%;
+  height: 100%;
+  border-radius:50%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  background:url('../images/project-link-arrow-black.png') center center no-repeat;
+}
+
+
+.sect-marquee {
+  background-color: #d9ff06;
+}
+.sect-marquee .group-marquee {
+  color: #000;
+}
+
+
+
+/* hover */
+@media (hover: hover) {
+  .project-content .group-project .project-item:hover a.mask {
+    clip-path: circle(100vw at calc(100% - 92px) 50%);
+  }
+}
+
+
+
+
+/* 반응형 1440px 사이즈 */
+@media screen and (max-width:1440px){
+
+  .project-content .inner {
+    padding: 0 25px;
+  }
+	
+}
+
+
+
+/* 반응형 1100px 사이즈 */
+@media screen and (max-width:1100px){
+
+  .project-content .group-title .page-title {
+    font-size: 15vw;
+    line-height: 1em;
+    margin-bottom: 0;
+  }
+
+  .project-content .group-project .project-item a.mask,
+  .project-content .group-project .project-item .project-link {
+    display: none;
+  }
+	
+  .project-content .group-project .project-item .project-info {
+    width: 100%;
+  }
+
+  .project-content .group-project .project-item .project-info .title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  .project-content .group-project .project-item .project-info .description {
+    font-size: 1.05em;
+  }
+
+}
+
+
+
+/* 반응형 768px 사이즈 */
+@media screen and (max-width:768px){
+
+  .project-content .group-title .sub-txt {
+    font-size: 1.1em;    
+    line-height: 1em;
+    margin: 0;
+  }
+
+  .project-content .group-title .page-title .word:last-child {
+    margin-right: 1em;
+  }
+	
+}
+
+
+
+
+/* 반응형 480px 사이즈 */
+@media screen and (max-width:480px){
+
+  .project-content .group-project .project-item .project-info .title {
+    flex-direction: column-reverse;
+    gap: 5px;
+    line-height: 1.2;
+  }
+
+  .project-content .group-title .sub-txt {
+    font-size: 1em;    
+  }
+
+  .project-content .group-project .project-item .project-year {
+    margin-top: 0;
+    font-size: 0.7em;
+  }
+
+  .project-content .group-project .project-item a {
+    padding: 6vh 2vh;
+  }
+
+  .project-content .group-project .project-item .project-info .title {
+    font-size: 1.6em;   
+  }
+	
+}
+
+
+
+
+/* 반응형 480px 사이즈 */
+@media screen and (max-width:480px){
+
+  .project-content .group-title {
+    min-height: 52vh;
+  }	
+
+  .project-content .group-project .project-item .project-info .description {
+    font-size: 0.9em;  
+    font-weight: 400;
+  }
+}

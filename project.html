@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>   
+  <script src="./assets/js/split.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script> 
+
+  <script src="./assets/js/common.js" defer></script>
+  <script src="./assets/js/project.js" defer></script>
+
+  
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/project.css">
+</head>
+<body>
+  
+  <div class="cursor-wrap">
+    <div class="cursor-in">
+      <div class="cursor-circle"></div>
+      <span class="cursor-text"></span>
+      <span class="cursor-text"></span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <header class="header" id="header">
+      <h1 class="logo"><a href="">A<br>ZERO</a></h1>
+      <nav class="gnb">
+        <ul class="gnb-list">
+          <li class="gnb-item">
+            <a href="">
+            <div class="menu-text">HOME</div>
+            <div class="menu-text">HOME</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">PROJECT(7)</div>
+              <div class="menu-text">PROJECT(7)</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">Career(21)</div>
+              <div class="menu-text">Career(21)</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">about</div>
+              <div class="menu-text">about</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">contact</div>
+              <div class="menu-text">contact</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+      <div class="mobile-open">
+        <button class="mobile-open-btn">
+          <!-- <span></span>
+          <span></span>
+          <span></span> -->
+          Menu
+        </button>
+      </div>
+
+      <div class="mobile-gnb">
+        <button class="mobile-close">Close</button>
+        <ul class="mobile-gnb-list">
+          <li class="mobile-gnb-item"><a href=""><span>Home</span></a></li>
+          <li class="mobile-gnb-item"><a href=""><span>Project(7)</span></a></li>
+          <li class="mobile-gnb-item"><a href=""><span>Career(21)</span></a></li>
+          <li class="mobile-gnb-item"><a href=""><span>About</span></a></li>
+          <!-- <li class="mobile-gnb-item contact">Contact<span class="mo-call">+82 (0)10 2060 4591</span><a class="mo-email" href="mailto:zero.work@gmail.com">zero.work@gmail.com</a></li> -->
+        </ul>
+        <ul class="mobile-contact">
+          <li>+82 (0)10 2060 4591</li>
+          <li><a href="mailto:zero.work@gmail.com">zero.work@gmail.com</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    <div class="page">
+      <main class="content project-content" >
+    
+        <div class="inner">
+          <section class="group-title">
+            <div class="title-inner">
+              <h2 class="page-title">Company Work Portfolio</h2>
+              <!-- <p class="sub-txt">Bringing ideas to life and setting you up for the future</p> -->
+              <p class="sub-txt">이전회사에서 작업한 작업물입니다. 그누보드를 기반으로 작업진행하였습니다.</p>
+            </div>
+          </section>
+          <div class="group-project">
+            <div class="project-wrap">
+              <div class="pr-line"></div>
+    
+              <div class="project-list">
+                <div class="project-item">
+                  <a href="http://expompl.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">목포문학박람회<span class="project-year">2023</span></p>
+                      <p class="description">역시 영어가 이쁜 게 많긴 한데 말이지,, 근데 또 한글을 안 쓸 수가 없잖어역시 영어가 이쁜 게 많긴 한데 말이지,, 근데 또 한글을 안 쓸 수가 없잖어역시 영어가 이쁜 게 많긴 한데 말이지,, 근데 또 한글을 안 쓸 수가 없잖어</p>
+                      <div class="tag">
+                        <span>디자인 100%</span>
+                        <span>퍼블리싱 100%</span>
+                        <span>그누보드</span>
+                        <span>반응형</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://expompl.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">목포문학박람회<span class="project-year">2023</span></p>
+                      <p class="description">역시 영어가 이쁜 게 많긴 한데 말이지,, 근데 또 한글을 안 쓸 수가 없잖어역시 영어가 이쁜 게 많긴 한데 말이지,, 근데 또 한글을 안 쓸 수가 없잖어역시 영어가 이쁜 게 많긴 한데 말이지,, 근데 또 한글을 안 쓸 수가 없잖어</p>
+                      <div class="tag">
+                        <span>디자인 100%</span>
+                        <span>퍼블리싱 100%</span>
+                        <span>그누보드</span>
+                        <span>반응형</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.jnyouthcenter.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">전라남도청년센터(리뉴얼)<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation isYou have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.jnyouthcenter.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">전라남도청년센터(리뉴얼)<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation isYou have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="https://www.oceanoresort.co.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">오시아노<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="https://www.oceanoresort.co.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">오시아노<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="https://daesungrope.com/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">대성기업디에스(주)<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="https://daesungrope.com/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">대성기업디에스(주)<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.jhcaritas.or.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">전남목포지역자활센터<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.jhcaritas.or.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">전남목포지역자활센터<span class="project-year">2023</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.jnonestop.or.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">전남동부해바라기센터<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.jnonestop.or.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">전남동부해바라기센터<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://jnscc.co.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">전남과학문화거점센터<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://jnscc.co.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">전남과학문화거점센터<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.haeneul.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">해늘마루<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.haeneul.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">해늘마루<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.jnyouthcenter.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">전라남도청년센터<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.jnyouthcenter.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">전라남도청년센터<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://ihongdo.co.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">동양훼리<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://ihongdo.co.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">동양훼리<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://sungmo.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">성모의집<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://sungmo.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">성모의집<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://ganaco.itsbiz.co.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">가나이엔지<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://ganaco.itsbiz.co.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">가나이엔지<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://foodjin.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">푸드진<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://foodjin.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">푸드진<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://bokjo.com/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">그린햇살<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://bokjo.com/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">그린햇살<span class="project-year">2022</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://changshin4561.co.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">창신<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://changshin4561.co.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">창신<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="https://www.sinansh.com/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">신안군수협<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="https://www.sinansh.com/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">신안군수협<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.mokpohf.com/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">목포인재육성재단<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.mokpohf.com/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">목포인재육성재단<span class="project-year">2021</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://hnstartup.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">호남권1인창업지원센터<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://hnstartup.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">호남권1인창업지원센터<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="https://www.mmu.ac.kr/OM"  class="view">
+                    <div class="project-info">
+                      <p class="title">목포해양대학교 링크사업단 온라인채용박람회<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="https://www.mmu.ac.kr/OM" class="mask">
+                    <div class="project-info">
+                      <p class="title">목포해양대학교 링크사업단 온라인채용박람회<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.jw92.co.kr/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">중우건설<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.jw92.co.kr/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">중우건설<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                <div class="project-item">
+                  <a href="http://www.daehanship-tech.com/" target="_blank" class="view">
+                    <div class="project-info">
+                      <p class="title">대한선박기술<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                  <a href="http://www.daehanship-tech.com/" target="_blank" class="mask">
+                    <div class="project-info">
+                      <p class="title">대한선박기술<span class="project-year">2020</span></p>
+                      <p class="description">You have a vision in mind -or maybe not yet- and don’t know how to communicate this to the world. Building a strong brand foundation is</p>
+                      <div class="tag">
+                        <span>Branding</span>
+                        <span>Website</span>
+                        <span>Marketing</span>
+                      </div>
+                    </div>
+                    <div class="project-link">
+                      <div class="project-link-in"></div>
+                    </div>
+                  </a>
+                </div><!-- project-item -->
+                
+              </div><!-- project-list -->
+            </div><!-- project-wrap -->
+          </div><!-- group-project -->
+        </div><!-- inner -->
+        <section class="sect-marquee">
+          <div class="group-marquee">
+            <div class="about-marquee-wrap">
+              <div class="about-marquee-in">
+                <div class="about-marquee-unit">Original artistry at scale</div>
+                <div class="about-marquee-unit">Original artistry at scale</div>
+                <div class="about-marquee-unit">Original artistry at scale</div>
+                <div class="about-marquee-unit">Original artistry at scale</div>
+                <div class="about-marquee-unit">Original artistry at scale</div>
+                <div class="about-marquee-unit">Original artistry at scale</div>
+              </div>
+            </div>
+          </div><!-- group-marquee -->
+        </section>
+      </main><!-- content -->
+    </div><!-- page -->    
+    
+    <footer class="footer" id="footer">
+      <div class="inner">
+        <div class="footer-layout">
+          <small>© joazero 2018</small>
+          <p class="call">+82 (0)10 2060 4591</p>
+          <p class="mail">zero.work@gamil.com</p>
+          <ul class="etc-list">
+            <li><a href="" target="_blank">Velog</a></li>
+            <li><a href="" target="_blank">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="scroll-circle-wrap">
+    <div class="scroll-circle-inner">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300" class="scroll-circle-text">
+        <defs>
+            <path id="txt-path" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "></path>
+        </defs> <text dy="0" font-size="16.044303797468352">
+            <textPath startOffset="0" xlink:href="#txt-path" side="left" method="stretch" class="scroll-circle-text-path">
+                SCROLL TO EXPLORE •
+            </textPath>
+            <textPath startOffset="50%" xlink:href="#txt-path" side="left" method="stretch" class="scroll-circle-text-path">
+                SCROLL TO EXPLORE •
+            </textPath>
+        </text>
+      </svg>
+      <div class="scroll-circle-area">
+        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 14" class="scroll-circle-arrow">
+          <path d="M0 7.3999h19.2v-1.5H0z" class="line"></path>
+          <path d="M14.3999 12.9727l5.3383-6.18637L14.3999.6" stroke-width="1.5" class="chevron"></path>
+        </svg>
+        <div class="scroll-circle-content">
+          <div class="circle">
+            <div class="circle-mask">
+              <div class="circle-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>   
+  <script src="./assets/js/split.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script> 
+
+  <script src="./assets/js/common.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+
+  
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+  <div class="cursor-wrap">
+    <div class="cursor-in">
+      <div class="cursor-circle"></div>
+      <span class="cursor-text"></span>
+      <span class="cursor-text"></span>
+    </div>
+  </div>
+
+  <div class="intro-wrap">
+    <div class="noise-bg"></div>
+    <div class="inner">
+      <p id="intro-text"></p>
+    </div>
+  </div>
+  
+  <div class="wrap">
+    <header class="header" id="header">
+      <h1 class="logo"><a href="">A<br>ZERO</a></h1>
+      <nav class="gnb">
+        <ul class="gnb-list">
+          <li class="gnb-item">
+            <a href="">
+            <div class="menu-text">HOME</div>
+            <div class="menu-text">HOME</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">PROJECT(7)</div>
+              <div class="menu-text">PROJECT(7)</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">Career(21)</div>
+              <div class="menu-text">Career(21)</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">about</div>
+              <div class="menu-text">about</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">contact</div>
+              <div class="menu-text">contact</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+      <div class="mobile-open">
+        <button class="mobile-open-btn">
+          <!-- <span></span>
+          <span></span>
+          <span></span> -->
+          Menu
+        </button>
+      </div>
+
+      <div class="mobile-gnb">
+        <button class="mobile-close">Close</button>
+        <ul class="mobile-gnb-list">
+          <li class="mobile-gnb-item"><a href=""><span>Home</span></a></li>
+          <li class="mobile-gnb-item"><a href=""><span>Project(7)</span></a></li>
+          <li class="mobile-gnb-item"><a href=""><span>Career(21)</span></a></li>
+          <li class="mobile-gnb-item"><a href=""><span>About</span></a></li>
+          <!-- <li class="mobile-gnb-item contact">Contact<span class="mo-call">+82 (0)10 2060 4591</span><a class="mo-email" href="mailto:zero.work@gmail.com">zero.work@gmail.com</a></li> -->
+        </ul>
+        <ul class="mobile-contact">
+          <li>+82 (0)10 2060 4591</li>
+          <li><a href="mailto:zero.work@gmail.com">zero.work@gmail.com</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main" id="main">
+      <section class="main-visual">
+        <div class="noise-bg"></div>
+        <div class="inner">
+          <div class="main-visual-title">
+            <h2>
+              <span class="main-title-block">Anthony Fonte</span>
+              <span class="main-title-block">Creative Direction + Design</span>
+            </h2>
+          </div>
+          <div class="main-visual-bg"></div>
+        </div>
+      </section>
+    
+      <section class="sect-project">
+        <div class="group-project">
+          <div class="project-area">
+            <div class="project-title">
+              <h2>WORK</h2>
+            </div>
+            <div class="project-list-wrap">
+              <div class="project-list-blank"></div>
+              <div class="project-list">
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><span class="count">1</span><img class="img" src="./assets/images/" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">NAVER</span><span class="project-year">2024</span></h3>
+                        <div class="description">
+                          <span class="tag">Website</span>
+                          <span class="tag">Logo design</span>
+                          <span class="tag">Photography</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img">
+                        <video class="video" autoplay loop muted playinline src="./assets/video/kozowood.mp4"></video>
+                      </div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">KOZOWOOD</span><span class="project-year">2024</span></h3>
+                        <div class="description">
+                          <span class="tag">Website</span>
+                          <span class="tag">Logo design</span>
+                          <span class="tag">Photography</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img">                        
+                        <video class="video" autoplay loop muted playinline src="./assets/video/enterprise.mp4"></video>
+                      </div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">ENTERPRISE</span><span class="project-year">2024</span></h3>
+                        <div class="description">
+                          <span class="tag">Website</span>
+                          <span class="tag">Logo design</span>
+                          <span class="tag">Photography</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><img class="img" src="./assets/images/lokect.png" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">LOKET.DESIGN</span><span class="project-year">2024</span></h3>
+                        <div class="description">
+                          <span class="tag">Website</span>
+                          <span class="tag">Logo design</span>
+                          <span class="tag">Photography</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><span class="count">5</span><img class="img" src="./assets/images/aim.png" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">AIM.OBYS.AGENCY</span><span class="project-year">2024</span></h3>
+                        <div class="description">
+                          <span class="tag">Website</span>
+                          <span class="tag">Logo design</span>
+                          <span class="tag">Photography</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><span class="count">6</span><img class="img" src="./assets/images/hazzys.jpg" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">HAZZYS</span><span class="project-year">2024</span></h3>
+                        <div class="description">
+                          <span class="tag">Website</span>
+                          <span class="tag">Logo design</span>
+                          <span class="tag">Photography</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img">
+                        <video class="video" autoplay loop muted playinline src="./assets/video/ottogi.mp4"></video>
+                      </div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">OTTOGI</span><span class="project-year">year</span></h3>
+                        <div class="description">
+                          <span class="tag">Website</span>
+                          <span class="tag">Logo design</span>
+                          <span class="tag">Photography</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div><!-- project-list -->
+            </div><!-- project-list-wrap -->
+          </div>
+          <div class="project-more">
+            <a href="">
+              <div class="project-more-motion">
+                <div class="split">MORE CAREER →</div>
+              </div>
+              <div class="project-more-motion">
+                <div class="split">MORE CAREER →</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section><!-- sect-project -->
+    
+      <section class="sect-about">
+        <div class="group-top">
+          <div class="inner">
+            <div class="about-top-area">
+              <div class="left">
+                <h2>A PLACE<br>FOR THE</h2>
+                <div class="about-top-img"><img src="./assets/images/about-img.webp" alt=""></div>
+              </div>
+              <div class="center"><div class="line"></div></div>
+              <div class="right">
+                <div class="about-top-text-wrap">
+                  <div class="about-top-text-unit">BEST</div>
+                  <div class="about-top-text-unit">MINDS</div>
+                  <div class="about-top-text-unit">IN</div>
+                  <div class="about-top-text-unit">MUSIC</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- group-top -->
+        <div class="group-bottom">
+          <div class="inner">
+            <div class="line"></div>
+            <div class="right">
+              <div class="about-bottom-text-wrap">
+                <div class="about-bottom-text-in">
+                  <h3>(ABOUT US)</h3>
+                  <div class="description">
+                    <p>대한민국은 통일을 지향하며,<em> –</em> 자유민주적 기본질서에 입각한 평화적 통일 정책을 수립하고 이를 추진한다. 국가는 전통문화의 계승·발전과 민족문화의 창달에 노력하여야 한다. 자유민주적 기본질서에 입각한 평화적 통일 정책을 수립하고 이를 추진한다. 국가는 전통문화의 계승·발전과 민족문화의 창달에 노력하여야 한다.</p>
+                    <p>국가는 청원에 대하여 심사할 의무를 진다. 헌법재판소 재판관은 정당에 가입하거나 정치에 관여할 수 없다. 국가안전보장에 관련되는 대외정책·군사정책과 국내정책의 수립에 관하여 국무회의의 심의에 앞서 대통령의 자문에 응하기 위하여 국가안전보장회의를 둔다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- group-bottom -->
+    
+      </section><!-- sect-about -->
+      <section class="sect-marquee">
+        <div class="group-marquee">
+          <div class="about-marquee-wrap">
+            <div class="about-marquee-in">
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+            </div>
+          </div>
+        </div><!-- group-marquee -->
+      </section>
+    
+    </main>
+    
+    <footer class="footer" id="footer">
+      <div class="inner">
+        <div class="footer-layout">
+          <small>© joazero 2018</small>
+          <p class="call">+82 (0)10 2060 4591</p>
+          <p class="mail">zero.work@gamil.com</p>
+          <ul class="etc-list">
+            <li><a href="">Velog</a></li>
+            <li><a href="">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="scroll-circle-wrap">
+    <div class="scroll-circle-inner">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300" class="scroll-circle-text">
+        <defs>
+            <path id="txt-path" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "></path>
+        </defs> <text dy="0" font-size="16.044303797468352">
+            <textPath startOffset="0" xlink:href="#txt-path" side="left" method="stretch" class="scroll-circle-text-path">
+                SCROLL TO EXPLORE •
+            </textPath>
+            <textPath startOffset="50%" xlink:href="#txt-path" side="left" method="stretch" class="scroll-circle-text-path">
+                SCROLL TO EXPLORE •
+            </textPath>
+        </text>
+      </svg>
+      <div class="scroll-circle-area">
+        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 14" class="scroll-circle-arrow">
+          <path d="M0 7.3999h19.2v-1.5H0z" class="line"></path>
+          <path d="M14.3999 12.9727l5.3383-6.18637L14.3999.6" stroke-width="1.5" class="chevron"></path>
+        </svg>
+        <div class="scroll-circle-content">
+          <div class="circle">
+            <div class="circle-mask">
+              <div class="circle-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
